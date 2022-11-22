@@ -1,5 +1,5 @@
 import { createTheme } from "@mui/material";
-import { red } from "@mui/material/colors";
+import { green, red } from "@mui/material/colors";
 
 
 
@@ -12,7 +12,7 @@ export const purpleTheme = createTheme({
             main: "#543884"
         },
         error: {
-            main: red.A400
+            main: green[400]
         }
     }
 })
